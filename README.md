@@ -51,10 +51,12 @@ Some projects are practical utilities, like VPN-aware flight price monitoring. O
 
 ## Metrics
 
-<p>
-  <img src="https://raw.githubusercontent.com/eliel9012/eliel9012/main/github-languages.svg" alt="Most used languages" width="420" />
-  <img src="https://raw.githubusercontent.com/eliel9012/eliel9012/main/github-stars.svg" alt="Starred topics" width="420" />
-</p>
+<table>
+  <tr>
+    <td valign="top"><img src="https://raw.githubusercontent.com/eliel9012/eliel9012/main/github-languages.svg" alt="Most used languages" width="420" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/eliel9012/eliel9012/main/github-stars.svg" alt="Starred topics" width="420" /></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/eliel9012">GitHub</a> |
