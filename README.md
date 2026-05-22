@@ -1,21 +1,6 @@
-<p align="center">
-  <strong>Eliel Felipe Junior |</strong>
-  <a href="https://elielfelipe.com.br">Website</a> |
-  <a href="https://meulab.fun">MeuLab</a> |
-  <a href="https://github.com/eliel9012">GitHub</a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/elielfelipe/">
-    <img src="https://img.shields.io/badge/LinkedIn-elielfelipe-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://orcid.org/0000-0002-6333-1187">
-    <img src="https://img.shields.io/badge/ORCID-0000--0002--6333--1187-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" />
-  </a>
-  <a href="https://meulab.fun">
-    <img src="https://img.shields.io/badge/MeuLab-live%20systems-24292f?style=flat-square&logo=raspberrypi&logoColor=white" alt="MeuLab" />
-  </a>
-</p>
+<pre align="center">
+<strong>Eliel Felipe Junior |</strong> <a href="https://elielfelipe.com.br">Website</a> | <a href="https://meulab.fun">MeuLab</a> | <a href="https://github.com/eliel9012">GitHub</a> | <a href="https://www.linkedin.com/in/elielfelipe/">LinkedIn</a> | <a href="https://orcid.org/0000-0002-6333-1187">ORCID</a>
+</pre>
 
 <p align="center">
   <a href="https://github.com/eliel9012?tab=achievements">
