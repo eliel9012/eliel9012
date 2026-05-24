@@ -1,0 +1,18 @@
+; logger.conf — Configuração de log do Asterisk — Mega Net Lab
+; Copiar para /etc/asterisk/logger.conf e ajustar antes de usar.
+; Após alterar, recarregar com: sudo asterisk -rx "logger reload"
+
+[general]
+; Formato de data com milissegundos — importante para correlacionar eventos
+dateformat = %F %T.%3q
+
+[logfiles]
+; Console interativo: mostrar tudo para depuração em tempo real
+console => notice,warning,error,verbose,debug
+
+; Arquivo de log completo: salvo em /var/log/asterisk/full
+; Este arquivo deve ser copiado para a pasta da sessão após cada experimento.
+full    => notice,warning,error,verbose,debug
+
+; Arquivo de erros apenas (opcional, para triagem rápida)
+; error   => error
