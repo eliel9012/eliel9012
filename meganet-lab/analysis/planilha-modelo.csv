@@ -1,0 +1,2 @@
+data,tipo_teste,menu_meganet,numero_configurado,numero_capturado,codec,fax_mode,arquivo_wav,arquivo_pcap,arquivo_tif,faxstatus,faxerror,observacoes
+2026-05-24,discagem-inicial,,011-835 42 44,,ulaw,,audio.wav,meganet.pcap,,,,Primeiro teste
