@@ -24,7 +24,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
 
-
       - name: Stars
         uses: lowlighter/metrics@latest
         with:
