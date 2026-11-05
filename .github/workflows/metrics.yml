@@ -6,7 +6,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - .github/workflows/metrics.yml
   workflow_dispatch:
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   github-metrics:
@@ -22,6 +28,7 @@ jobs:
           template: classic
           filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
+          repositories_batch: 25
           config_timezone: America/Sao_Paulo
 
       - name: Stars
