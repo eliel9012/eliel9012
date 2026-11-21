@@ -16,38 +16,50 @@
 
 <img src="https://raw.githubusercontent.com/eliel9012/eliel9012/main/github-metrics.svg" alt="GitHub metrics" width="420" align="right" />
 
-I build small, practical systems that connect **local infrastructure, radio and aviation data, retro hardware and AI-assisted tooling**.
+I am a Brazilian lawyer (OAB/SP) working in contracts, data protection (LGPD), intellectual property and AI governance, and a self-taught developer. I build local AI systems, reproducible data pipelines and hardware projects.
 
-My projects usually start in a home lab: Raspberry Pi services, LAN discovery, ADS-B receivers, satellite/GPS visualizations, monitoring dashboards and tools that turn live data into something useful. I also enjoy bringing text, data and interfaces to older platforms such as Sega Genesis, Sega Saturn and DOS.
+I take care of the part demos usually skip: permissions, traceability, human oversight and measurable results. I work in Portuguese, English, French, Spanish and Italian.
+
+## Highlights
+
+[![Jarvis](./profile/pin-jarvis.svg)](https://github.com/eliel9012/Jarvis)
+
+**Jarvis** is a voice assistant for macOS that runs entirely on the machine. Speech goes through Whisper, a Qwen 3.5 9B model and Kokoro TTS, all on Apple MLX. A local BM25 index answers from your own notes and returns the sources it used. Tools are called over MCP through a hand-written stdio client, with no SDK. A FastAPI backend serves a SwiftUI app, every pipeline stage has a benchmark, and the repo ships 17 backend tests and 24 app tests.
+
+[![OpenSky Franca coverage](./profile/pin-opensky.svg)](https://github.com/eliel9012/opensky-br-franca-coverage)
+
+**OpenSky Franca coverage** documents the volunteer ADS-B receiver I run for the OpenSky Network in Franca, Brazil. Over 137 days it recorded 36.5 million ADS-B positions from 4,925 aircraft, with 99.54% receiver uptime. After an antenna replacement, mean range for the same fleet rose 15.6%. Raw data and analysis code are archived on Zenodo with DOIs ([dataset](https://doi.org/10.5281/zenodo.23090597), [code](https://doi.org/10.5281/zenodo.23089559)). Poster and short paper at the 14th OpenSky Symposium (Madrid, 2026). Live dashboard: [adsb.meulab.fun](https://adsb.meulab.fun).
+
+[![m5-retro-tv](./profile/pin-m5retro-tv.svg)](https://github.com/eliel9012/m5-retro-tv)
+
+**M5Retro-TV** is firmware for an M5Stack Core2 with an RCA module that drives a CRT television over NTSC composite video. It shows a live aircraft radar, plays video from microSD and has a weather forecast screen. Awarded Most Loved in the Schematik × M5Stack Build Season 2026.
+
+## Current Focus
+
+- AI agents and RAG, including knowing when a deterministic workflow beats an agent
+- AI governance and privacy: LGPD, access control and human-in-the-loop review
+- Data pipelines with provenance
+- Self-hosted infrastructure
 
 ## Home Lab and Infrastructure
 
 [![MeuLabApp](./profile/pin-meulab.svg)](https://github.com/eliel9012/MeuLabApp)
 [![ipscanner-cli](./profile/pin-ipscanner.svg)](https://github.com/eliel9012/ipscanner-cli)
 
-[MeuLab](https://meulab.fun) is the public face of my local lab: monitoring, telemetry and experiments running on small machines. Around it, I build tools for network visibility, service observability and everyday automation.
+[MeuLab](https://meulab.fun) is my self-hosted lab: monitoring, telemetry and small services on Raspberry Pi machines, plus tools for network visibility.
 
-## Aviation, ADS-B and Satellites
+## Aviation and Satellites
 
-[![OpenSky Franca coverage](./profile/pin-opensky.svg)](https://github.com/eliel9012/opensky-br-franca-coverage)
 [![GPS Globe](./profile/pin-gps-globe.svg)](https://github.com/eliel9012/GPS-Globe)
 
-I work with local aviation and satellite data, especially ADS-B coverage, GPS/GNSS context and live visualizations. The goal is reproducible, inspectable data pipelines that connect local receivers with maps, dashboards and research artifacts.
+Live ADS-B, GPS/GNSS and satellite visualizations fed by local receivers.
 
 ## Tools and Retro Computing
 
 [![flight-price-monitor](./profile/pin-flight-monitor.svg)](https://github.com/eliel9012/flight-price-monitor)
 [![SegaGenesisKJV](./profile/pin-sega-genesis-kjv.svg)](https://github.com/eliel9012/SegaGenesisKJV)
 
-Some projects are practical utilities, like VPN-aware flight price monitoring. Others are experiments in constrained interfaces, like Bible readers and text systems for retro consoles and older environments.
-
-## Current Focus
-
-- Raspberry Pi infrastructure, monitoring and service automation
-- ADS-B, GPS/GNSS and satellite data visualization
-- SwiftUI dashboards for local telemetry
-- Retrocomputing projects for Sega Genesis, Sega Saturn and DOS
-- AI-assisted tools for research, dashboards and operations
+Practical utilities, like VPN-aware flight price monitoring, and text systems for retro consoles such as the Sega Genesis.
 
 ## Recently Starred
 
