@@ -43,7 +43,7 @@ I take care of the part demos usually skip: permissions, traceability, human ove
 
 ## Home Lab and Infrastructure
 
-[![MeuLabApp](./profile/pin-meulab.svg)](https://github.com/eliel9012/MeuLabApp)
+![MeuLabApp](./profile/pin-meulab.svg)
 [![ipscanner-cli](./profile/pin-ipscanner.svg)](https://github.com/eliel9012/ipscanner-cli)
 
 [MeuLab](https://meulab.fun) is my self-hosted lab: monitoring, telemetry and small services on Raspberry Pi machines, plus tools for network visibility.
